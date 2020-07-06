@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 522
+    length: 51
     placeholder_text: 'class DateRange(val start: MyDate, val end: MyDate)'
     initial_state:
       length: 51
@@ -28,7 +28,7 @@ files:
               }
           }
       }
-    selected: true
+    selected: false
     status: Solved
   text: |-
     class DateRange(val start: MyDate, val end: MyDate)

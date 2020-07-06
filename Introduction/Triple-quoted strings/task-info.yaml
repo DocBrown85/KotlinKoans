@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 162
-    length: 16
+    length: 13
     placeholder_text: .trimIndent()
     initial_state:
       length: 13
       offset: 162
     initialized_from_dependency: false
     possible_answer: .trimMargin("#")
-    selected: true
+    selected: false
     status: Solved
   text: |-
     const val question = "life, the universe, and everything"

@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 82
-    length: 11
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 82
     initialized_from_dependency: false
     possible_answer: it % 2 == 0
-    selected: true
+    selected: false
     status: Solved
   text: |
     fun containsEven(collection: Collection<Int>): Boolean =

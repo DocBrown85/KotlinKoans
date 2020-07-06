@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 22
-    length: 4
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 22
     initialized_from_dependency: false
     possible_answer: '"OK"'
-    selected: true
+    selected: false
     status: Solved
   text: |
     fun start(): String = TODO()

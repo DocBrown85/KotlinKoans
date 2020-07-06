@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 82
-    length: 19
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 82
     initialized_from_dependency: false
     possible_answer: date in first..last
-    selected: true
+    selected: false
     status: Solved
   text: |
     fun checkInRange(date: MyDate, first: MyDate, last: MyDate): Boolean {

@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 91
-    length: 126
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -16,7 +16,7 @@ files:
           if (email != null && message != null) {
               mailer.sendMessage(email, message)
           }
-    selected: true
+    selected: false
     status: Solved
   text: |
     fun sendMessageToClient(

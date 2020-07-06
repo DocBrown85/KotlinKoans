@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 73
+    length: 57
     placeholder_text: |-
       // import kotlin.random.Random
       // import java.util.Random
@@ -18,8 +18,8 @@ files:
       import java.util.Random as JRandom
     selected: false
     status: Solved
-  - offset: 160
-    length: 20
+  - offset: 144
+    length: 23
     placeholder_text: // KRandom.nextInt(2) +
     initial_state:
       length: 23
@@ -28,8 +28,8 @@ files:
     possible_answer: KRandom.nextInt(2) +
     selected: false
     status: Solved
-  - offset: 223
-    length: 22
+  - offset: 210
+    length: 25
     placeholder_text: // JRandom().nextInt(2) +
     initial_state:
       length: 25

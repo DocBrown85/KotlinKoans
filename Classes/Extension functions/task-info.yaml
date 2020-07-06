@@ -5,24 +5,24 @@ files:
   visible: true
   placeholders:
   - offset: 30
-    length: 23
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 30
     initialized_from_dependency: false
     possible_answer: RationalNumber(this, 1)
-    selected: true
+    selected: false
     status: Solved
-  - offset: 96
-    length: 29
+  - offset: 79
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 79
     initialized_from_dependency: false
     possible_answer: RationalNumber(first, second)
-    selected: true
+    selected: false
     status: Solved
   text: |
     fun Int.r(): RationalNumber = TODO()

@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 74
-    length: 10
+    length: 3
     placeholder_text: '   '
     initial_state:
       length: 3
       offset: 74
     initialized_from_dependency: false
     possible_answer: ': Nothing'
-    selected: true
+    selected: false
     status: Solved
   text: |-
     import java.lang.IllegalArgumentException

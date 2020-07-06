@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 51
+    length: 12
     placeholder_text: class Person
     initial_state:
       length: 12
       offset: 0
     initialized_from_dependency: false
     possible_answer: 'data class Person(val name: String, val age: Int)'
-    selected: true
+    selected: false
     status: Solved
   text: |-
     class Person

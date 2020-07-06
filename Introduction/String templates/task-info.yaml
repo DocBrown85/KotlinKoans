@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 92
-    length: 24
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 92
     initialized_from_dependency: false
     possible_answer: '"""\d{2} $month \d{4}"""'
-    selected: true
+    selected: false
     status: Solved
   text: |
     val month = "(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"

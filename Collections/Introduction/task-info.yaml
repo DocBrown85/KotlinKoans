@@ -13,7 +13,7 @@ files:
     initialized_from_dependency: false
     possible_answer: customers.toSet()
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     fun Shop.getSetOfCustomers(): Set<Customer> =
             TODO()
@@ -122,5 +122,5 @@ files:
             Tokyo to listOf(asuka)
     ).mapValues { it.value.map { name -> customers[name] } }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
