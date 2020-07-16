@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 75
-    length: 6
+    length: 34
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -13,7 +13,7 @@ files:
     initialized_from_dependency: false
     possible_answer: lazy(initializer)
     selected: false
-    status: Unchecked
+    status: Solved
   text: |+
     class LazyProperty(val initializer: () -> Int) {
         val lazyValue: Int by TODO()
@@ -48,5 +48,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 16 Jul 2020 08:10:26 UTC
 record: -1
