@@ -58,17 +58,17 @@ files:
   visible: true
   placeholders:
   - offset: 83
-    length: 10
+    length: 23
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 83
     initialized_from_dependency: false
     possible_answer: (color = getTitleColor())
-    selected: false
-    status: Unchecked
-  - offset: 389
-    length: 6
+    selected: true
+    status: Solved
+  - offset: 402
+    length: 481
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -89,7 +89,7 @@ files:
                       }
                   }
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     fun renderProductTable(): String {
         return html {
@@ -182,5 +182,8 @@ files:
 - name: task.md.wb
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 16 Jul 2020 09:11:38 UTC
 record: -1

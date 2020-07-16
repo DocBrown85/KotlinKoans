@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 44
-    length: 6
+  - offset: 39
+    length: 29
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -14,8 +14,8 @@ files:
     possible_answer: |-
       f()
           return this
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     fun <T> T.myApply(f: T.() -> Unit): T {
         TODO()
@@ -68,5 +68,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 16 Jul 2020 09:06:30 UTC
 record: -1
